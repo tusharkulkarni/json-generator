@@ -1,14 +1,12 @@
 # json-generator
-Generate alchemyapi key from :
-http://www.alchemyapi.com/api/register.html
+#Generate alchemyapi key from :
+#http://www.alchemyapi.com/api/register.html .
+#Edit api_key.txt file and add your key in this file.
+#Generate microsoft api key from:
+#https://msdn.microsoft.com/en-us/library/mt146806.aspx .
+#Edit src/com/util/Utility.java line nos-38 and 39 to include your clientID and clientSecret.
 
-Edit api_key.txt file and add your key in this file.
-Generate microsoft api key from:
-
-https://msdn.microsoft.com/en-us/library/mt146806.aspx
-Edit src/com/util/Utility.java line nos-38 and 39 to include your clientID and clientSecret.
-
-Add json objects to which you want to markup with content tags and translated text to file train.json in following format :
+#Add json objects to which you want to markup with content tags and translated text to file train.json in following format :
 [
 {
 "id": "676463657069453312",
@@ -24,4 +22,4 @@ Add json objects to which you want to markup with content tags and translated te
 }
 ]
 
-Run src/com/util/Util.java to markup your json object.
+#Run src/com/util/Util.java to markup your json object.

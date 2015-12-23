@@ -35,8 +35,8 @@ public class Utility {
 		String str;
 		String lang = "";
 		int i=0;
-		String cliendId = "Blahhhhh";
-		String cliendSecret = "QlBeF5hpqSbC4p3VELZ7LV92QtbtPi40MC/5MsZAFhk=";
+		String cliendId = ""; 			//add your clientID
+		String cliendSecret = "";		//add your clientSecret
 		//JSONArray jsonarray = new JSONArray();
 
 		try {	 

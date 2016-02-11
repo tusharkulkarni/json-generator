@@ -1,4 +1,6 @@
 # json-generator
+Json-generator is the utility built for academic project purpose. It will consume json file containing twitter tweet data and generate content tags for tweet text, translate tweet text and add this new data in the json object and save it in train.json file
+
 1.Generate alchemyapi key from : http://www.alchemyapi.com/api/register.html  
 2.Edit api_key.txt file and add your key in this file.  
 3.Generate microsoft api key from : https://msdn.microsoft.com/en-us/library/mt146806.aspx  
